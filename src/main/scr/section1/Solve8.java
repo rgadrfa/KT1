@@ -19,6 +19,6 @@ public class Solve8 {
         var resultLength = 2 * (lLength + (nNumber - 1) * (aLength + bLength)) + aLength; // - Формула для вычисления длины шнурка
 
         System.out.println(String.format("Итоговая длина шнурка равна %s единицы",resultLength));
-        // - вывод информации о длине шнурка, с использованием форматированного выводакласса String
+        // - вывод информации о длине шнурка, с использованием форматированного вывода класса String
     }
 }

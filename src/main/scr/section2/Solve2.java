@@ -10,11 +10,11 @@ public class Solve2 {
 
         var number = input.nextDouble(); // - получение числа для проверки знака
 
-        if (number < 0) System.out.println(-1); // - Отрицательный знак
-        else  System.out.println(1); // - Положительный знак
+        if (number < 0) System.out.println(-1); // - Отрицательный знак, если полученное значение меньше чем 0
+        else  System.out.println(1); // - Иначе Положительный знак
     }
 
-    // - решение через метод
+    // - Решение через метод
     public static int getDigitalValue(double value){
         if (value >= 0) return 1; // - если значение больше или равно 0, то знак положительный
         return -1; // - иначе знак отрицательный
