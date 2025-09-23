@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Solve1 {
     public static void main1(){
 
-        var input = new Scanner(System.in); // - Новый объект сканнер
+        var input = new Scanner(System.in); // - Новый объект сканера
 
         System.out.print("Введите первое число ");
         var num1 = input.nextDouble(); // - Счёт первого числа
@@ -15,6 +15,6 @@ public class Solve1 {
         var num3 = input.nextDouble(); // - Счёт третьего числа
 
         var sum = num1 + num2 + num3; // - Вычисление суммы трёх чисел
-        System.out.println(sum); // - Вывод сумм
+        System.out.println(sum); // - Вывод суммы
     }
 }

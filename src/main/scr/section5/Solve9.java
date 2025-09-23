@@ -31,6 +31,7 @@ public class Solve9 {
             currentNumber = secondNumber; // - Смещение - Назначение currentNumber значение secondNumber (смещение влево по всей последовательности)
         }
         // Вывод результата - максимальной длины подпоследовательности одинаковых чисел
-        System.out.println(String.format("Итоговая максимальная длина всех подстрок %s ", currentMaxCount));
+        // Вывод с помощью форматированного вывода
+        System.out.printf("Итоговая максимальная длина всех подстрок %s %n", currentMaxCount);
     }
 }

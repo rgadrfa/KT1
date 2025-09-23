@@ -19,6 +19,7 @@ public class Solve5 {
             sum += input.nextDouble();
         }
         // Вывод результата: длина ряда и вычисленная сумма
-        System.out.println(String.format("Итоговая сумма при длине %d : %s",currentLength,sum));
+        // Вывод информации с помощью форматированного вывода
+        System.out.printf("Итоговая сумма при длине %d : %s%n",currentLength,sum);
     }
 }
