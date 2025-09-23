@@ -8,6 +8,6 @@ import main.scr.section5.*;
 
 public class Program {
     public static void main(String[] args) {
-
+        Solve11.main1();
     }
 }
