@@ -1,4 +1,4 @@
-package main.scr.section5;
+package main.section5;
 
 import java.util.Scanner;
 
